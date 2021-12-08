@@ -1,0 +1,46 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>BibliothèqueDeGestionDePersonnage</name>
+    </assembly>
+    <members>
+        <member name="T:BibliothèqueDeGestionDePersonnage.Personnage">
+            <summary>
+            Cette classe représente des personnages dans un jeu de combat.
+            <code>
+                Personnage personnage = new Personnage("Patrick", 10, 2);
+                personnage.SubbitDegat(5);
+            </code>
+            </summary>
+        </member>
+        <member name="P:BibliothèqueDeGestionDePersonnage.Personnage.Nom">
+            <summary>
+            Nom du personnage.
+            </summary>
+        </member>
+        <member name="P:BibliothèqueDeGestionDePersonnage.Personnage.PV">
+            <summary>
+            Points de vie du personnage.
+            </summary>
+        </member>
+        <member name="P:BibliothèqueDeGestionDePersonnage.Personnage.Armure">
+            <summary>
+            Armure du personnage.
+            </summary>
+        </member>
+        <member name="M:BibliothèqueDeGestionDePersonnage.Personnage.#ctor(System.String,System.Int32,System.Int32)">
+            <summary>
+            Constructeur à paramètre pour instancier un personnage.
+            </summary>
+            <param name="nom">Le nom du personnage</param>
+            <param name="pv">Le nombre de point de vie du personnage</param>
+            <param name="armure">La force de l'armure du personnage</param>
+        </member>
+        <member name="M:BibliothèqueDeGestionDePersonnage.Personnage.SubbitDegat(System.Int32)">
+            <summary>
+            Cette fonction permet au personnage de subir des dégats.
+            </summary>
+            <param name="degat">Nombre de dégat que le personnage va subir.</param>
+        </member>
+    </members>
+</doc>
